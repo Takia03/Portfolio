@@ -6,30 +6,30 @@
     <title>portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 </head>
-<link rel="stylesheet" href="../CSS/style.css">
+<link rel="stylesheet" href="CSS/style.css">
 
 <body>
     <!-- heading style -->
     <div class="heading">
         <nav>
             <div class="image"> 
-                <img src="../image/logo.png" class="logo">
+                <img src="image/logo.png" class="logo">
             </div>
            
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href=" #about" onclick="scrollToAbout()" >About</a></li>
-                <li><a href="#project" onclick="scrollToPROJECT()">Projeccts</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="../cv/Takia Farhin cv.html">CV</a></li>
+                <li><a href="#home" onclick="scrollToinfo()">Home</a></li>
+                <li><a href="#about" onclick="scrollToabout()" >About</a></li>
+                <li><a href="#project" onclick="scrollToproject()">Projeccts</a></li>
+                <li><a href="#contact" onclick="scrollTocontact()">Contact Us</a></li>
+                <li><a href="cv/Takia Farhin cv.html">CV</a></li>
             </ul>
         </nav>
        
-        <div class="info">
+        <div class="info" id="info">
             <h1>I  am <span> Takia  Farhin </span></h1>
             <h1>I'm a Software Engineering Student</h1>
             <p>welcome to my official Portfolio Website <br> Where I put all my work </p>
-            <a href="../cv/Takia Farhin.pdf" class="cv">Download CV</a> 
+            <a href="cv/Takia Farhin.pdf" class="cv">Download CV</a> 
             <div class="speacer-30"></div>
             <div class="social">
             <a href="https://www.facebook.com/profile.php?id=100076146143903"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
@@ -46,21 +46,21 @@
         <div class="speacer-40"></div>
         <div class="speacer-40"></div>
         <div class="img-box">
-            <img src="../image/logo3.png" class="back-img">
+            <img src="image/logo3.png" class="back-img">
          
         </div>
-                 <img src="../image/me.jpeg" class="man-img" >
+                 <img src="image/me.jpeg" class="man-img" >
        
         
         
     </div>
-    <div class="about">
+    <div class="about" id="about">
         <div class="speacer-40"></div>
         <div class="speacer-40"></div>
         <div class="speacer-40"></div>
         <div class="speacer-40"></div>
         <div class="main">
-            <img src="../image/me2.jpeg" alt="">
+            <img src="image/me2.jpeg" alt="">
          
             <div class="about-text">
                 <h1 >ABOUT</h1>
@@ -75,7 +75,7 @@
 
         </div>
     </div>
-    <div class="project">
+    <div class="project" id="project">
         <div class="left-style">
             <div class="title"> 
                 <div class="speacer-40"></div>
@@ -111,7 +111,7 @@
         </div>
         <div class="right-style">
             <div class="pro-img">
-                <img src="../image/project.png" alt="">
+                <img src="image/project.png" alt="">
             </div>
             
         </div>
@@ -123,7 +123,7 @@
 
         
     </div>
-    <div class="contact">
+    <div class="contact" id="contact">
         <div class="headline">
             <h1>CONTACT US</h1>
             <ul>
